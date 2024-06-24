@@ -6,14 +6,14 @@ import Products from "./components/Products";
 export default function App() {
   return (
     <div>
-          <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Dashboard />} />
-        <Route path="products" element={<Products/>} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Dashboard />} />
+            <Route path="products" element={<Products />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
 
     </div>
 
