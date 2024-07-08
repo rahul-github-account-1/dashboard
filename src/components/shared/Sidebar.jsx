@@ -7,7 +7,7 @@ let className='flex flex-row mx-4 gap-x-2 text-lg py-2 hover:text-xl '
 export default function Sidebar() {
   return (
     <div className='w-52 bg-zinc-700 flex flex-col text-slate-100'>
-            <div className='flex  px-1 py-1 '>
+            <div className='flex  px-1 py-1 border-b-4'>
                 <FcNfcSign className='mx-5'fontSize={30}/>
                 <span className='mx-1 text-xl'>Shopee</span>
             </div>   
